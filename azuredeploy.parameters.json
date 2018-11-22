@@ -1,0 +1,28 @@
+{
+  "$schema" : "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion" : "1.0.0.0",
+  "parameters" : {
+    "adminUsername" : {
+      "value" : "openshift"
+    },
+    "adminPassword" : {
+      "value" : ""
+    },
+    "sshKeyData" : {
+      "value" : "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsHQx4XBPgf8aTbRTYAfl5V5yzB0GqQMbQXvVKKQGAnqijgMalmDJgkyU1SCt8+5XC2o45wXs20iZX1bXy+V+xBg28D7QxNhI1sydvFgVihNGrrPiiwY+HM6jGV2NYpi971n34ylkQjZZevXTBafoSkMYSGcZSbs/HVUMWt+HQinhslFdkfzrf7bK+S4Z5gz+Sn9PWZ+MDAfPmSSwYjOnv+fCn0xjfJzJM1gJR/Xv3xiGlWUZoAxgx4jbksoEn2ynIjgeGUKe/EyDW60YlS1PB6ZgLbUSUxUDQatGIlwIyz0/NWlVTYn/5cuTp6PDXMOOaueVZPYBZ9SeBYWUJe//b OpenShift-Key" 
+
+    },
+    "WildcardZone" : {
+      "value" : "xip"
+    },
+    "numberOfNodes" : {
+      "value" : 3
+    },
+    "image" : {
+      "value" : "rhel"
+    },
+    "sshPrivateData" : {
+      "value" : "sdsd"
+    }
+  }
+}
