@@ -35,12 +35,8 @@
         "description": "imageReference object that should be used to create the virtual machine"
       }
     },
-    "sshPrivateData": {
-      "type": "securestring",
-      "metadata": {
-        "description": "SSH RSA private key file as a string."
-      }
-    },
+ 
+    
     "masterLoadBalancerName": {
       "type": "string",
       "metadata": {
