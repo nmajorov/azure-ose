@@ -15,14 +15,17 @@
     "WildcardZone" : {
       "value" : "xip"
     },
-    "numberOfNodes" : {
-      "value" : 3
-    },
     "image" : {
       "value" : "rhel"
     },
-    "sshPrivateData" : {
-      "value" : "sdsd"
+    "infranodeVMSize": {
+      "value": "Standard_D3_v2"
+    },
+    "masterVMSize": {                                                                                                                                                                        
+      "value": "Standard_D3_v2"
+    },
+    "nodeVMSize": {                                                                                                                                                                          
+      "value": "Standard_D3_v2"  
     }
   }
 }
