@@ -718,9 +718,6 @@
           "tenantid": {
             "value": "[variables('tenantId')]"
           },
-          "rhsmmode": {
-            "value": "[parameters('rhsmUsernamePasswordOrActivationKey')]"
-          },
           "openshiftsdn": {
             "value": "[parameters('OpenShiftSDN')]"
           },
